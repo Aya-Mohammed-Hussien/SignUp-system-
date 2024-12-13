@@ -1,0 +1,49 @@
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+section {
+  background-color: #24353f;
+  box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+  width: 60%
+}
+
+h1 {
+  color: #0dcaf0;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+.form-control {
+  color: white !important;
+  background-color: #24353f;
+  border: 1px white solid;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  background-color: #24353f;
+}
+
+.form-control::placeholder {
+  color: rgb(153, 148, 148);
+}
+
+.btn-outline-info {
+  --bs-btn-hover-color: white;
+}
+div span:hover{
+border-bottom: 1px white solid;
+cursor: pointer;
+}
+
+
+/* Home_Page */
+section#home__page{
+  background-color: lightgray;
+}
+h2{
+  font-size:50px;
+  color: #0dcaf0;
+}

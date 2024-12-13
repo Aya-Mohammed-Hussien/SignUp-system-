@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="icon" href="./assets/images/login.webp" />
+
+    <!-- Main meta tags -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <section class="p-3 mx-auto my-5 rounded-3">
+        <div class="contianer">
+            <header>
+                <h1 class="fw-semibold mb-1 text-center mt-4">Smart SignUp System</h1>
+            </header>
+        </div>
+        <div>
+            <form id="myForm">
+                <!-- Sign up form -->
+                <div>
+                    <div class="col-12">
+                        <input class="form-control my-3" placeholder="Enter your name" type="text" name="user_name"
+                            id="user__name" />
+                        <p class="text-danger my-0 p-0 fs-6 d-none" id="errorName">Name format is invalid.</p>
+                    </div>
+                    <div class="col-12">
+                        <input class="form-control my-3" placeholder="Enter your email" type="text" name="user_email"
+                            id="user__email" />
+                        <p class="text-danger my-0 p-0 fs-6 d-none" id="errorEmail">Email format is invalid.</p>
+                    </div>
+                    <div class="col-12">
+                        <input class="form-control my-3" placeholder="Enter your password" type="password"
+                            name="user_password" id="your__password" />
+                        <p class="text-danger my-0 p-0 fs-6 d-none" id="errorPassword">Password format is invalid.</p>
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="signup btn btn-outline-info text-center my-4 w-100 fs-6"
+                            id="signupMain">Sign Up</button>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-center text-white fs-6">You have an account? <span id="signinBtn">Signin</span></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Main js -->
+    <script src="assets/js/signup.js"></script>
+</body>
+
+</html>
